@@ -5,21 +5,27 @@ A machine learning system that predicts weekly wholesale and retail prices of ve
 
 ## Project Structure
 ```
-Veg/
+AgroPredict/
+├── backend/
+│   └── api.py                  # FastAPI: prediction, SHAP, dashboard endpoints
 ├── data/
-│   ├── generate_dataset.py     # Generate realistic historical dataset
+│   ├── generate_dataset.py     # realistic historical dataset
 │   ├── preprocess.py           # Feature engineering & encoding
 │   ├── raw/                    # Raw CSV 
-│   └── processed/              # Processed CSV
+│   └── processed/              # Processed / test-set CSV
+├── frontend/
+│   ├── src/                    # React source (pages: Dashboard, Predict, Explain)
+│   └── package.json
 ├── models/
 │   ├── train.py                # LightGBM training + evaluation
 │   ├── explain.py              # SHAP + PDP generation
-│   └── *.pkl / metrics.json   # Saved artifacts 
+│   └── *.pkl / metrics.json    # Saved model artefacts
 ├── notebook/
-│   └── SriLanka_Price_Prediction.ipynb   # Main assignment notebook
+│   └── SriLanka_Price_Prediction.ipynb
 ├── assets/                     # Generated plots (SHAP, PDP, EDA)
-├── app.py                      # Streamlit web application
-└── requirements.txt
+├── app.py                      # Streamlit web application 
+├── requirements.txt
+└── start.bat 
 ```
 
 ## Quick Start
