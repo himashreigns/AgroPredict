@@ -9,12 +9,12 @@ Veg/
 ├── data/
 │   ├── generate_dataset.py     # Generate realistic historical dataset
 │   ├── preprocess.py           # Feature engineering & encoding
-│   ├── raw/                    # Raw CSV (generated)
-│   └── processed/              # Processed CSV (generated)
+│   ├── raw/                    # Raw CSV 
+│   └── processed/              # Processed CSV 
 ├── models/
 │   ├── train.py                # LightGBM training + evaluation
 │   ├── explain.py              # SHAP + PDP generation
-│   └── *.pkl / metrics.json   # Saved artifacts (generated)
+│   └── *.pkl / metrics.json   # Saved artifacts 
 ├── notebook/
 │   └── SriLanka_Price_Prediction.ipynb   # Main assignment notebook
 ├── assets/                     # Generated plots (SHAP, PDP, EDA)
