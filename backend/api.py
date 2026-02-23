@@ -1,5 +1,5 @@
 """
-backend/api.py — FastAPI backend for Sri Lanka Produce Price Predictor
+backend/api.py — FastAPI backend for AgroPredict
 Serves data for the React frontend and handles predictions + SHAP explanations.
 """
 
@@ -63,7 +63,7 @@ PROVINCE_MAP = {
     "Narahenpita": "Western", "Nuwara Eliya": "Central", "Colombo Local": "Western",
 }
 
-app = FastAPI(title="SL Produce Price API", version="1.0")
+app = FastAPI(title="AgroPredict API", version="1.0")
 
 app.add_middleware(
     CORSMiddleware,

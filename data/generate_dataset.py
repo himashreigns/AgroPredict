@@ -1,6 +1,6 @@
 """
 generate_dataset.py
-Generates a comprehensive, realistic synthetic-historical weekly price dataset
+comprehensive, realistic historical weekly price dataset
 for vegetables and fruits at major Sri Lanka markets (2019–2025).
 
 Grounded in:

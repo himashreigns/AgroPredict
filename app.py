@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 
 # ── Page Config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="🥦 SL Produce Price Predictor",
+    page_title="🌿 AgroPredict",
     page_icon="🥦",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -154,7 +154,7 @@ with st.sidebar:
     st.markdown("""
     <div style="text-align:center; padding: 12px 0 20px;">
         <div style="font-size:2.5rem;">🥦</div>
-        <div style="font-size:1.1rem; font-weight:700; color:#a5b4fc;">SL Price Predictor</div>
+        <div style="font-size:1.1rem; font-weight:700; color:#a5b4fc;">AgroPredict</div>
         <div style="font-size:0.75rem; color:#64748b;">Powered by LightGBM + SHAP</div>
     </div>
     """, unsafe_allow_html=True)
@@ -188,7 +188,7 @@ if page == "📊 Dashboard":
     st.markdown("""
     <div class="hero-banner">
         <div>
-            <div class="hero-title">📊 Sri Lanka Produce Price Dashboard</div>
+            <div class="hero-title">📊 AgroPredict — Price Dashboard</div>
             <div class="hero-sub">Historical weekly prices for 20 vegetables & fruits · 5 major markets · 2019–2024</div>
         </div>
     </div>

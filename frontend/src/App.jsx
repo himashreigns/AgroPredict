@@ -10,7 +10,7 @@ export default function App() {
                 <aside className="sidebar">
                     <div className="sidebar-brand">
                         <span className="logo">🥦</span>
-                        <h1>SL Price Predictor</h1>
+                        <h1>AgroPredict</h1>
                         <p>Powered by LightGBM + SHAP</p>
                     </div>
 

@@ -485,9 +485,9 @@ export default function Predict() {
                                 ) : (
                                     <div className="empty-state" style={{ padding: '40px 0' }}>
                                         <div style={{ fontSize: '2.5rem', marginBottom: 12 }}>🌊</div>
-                                        <p>Click <b>"Predict Single Date"</b> to generate a SHAP waterfall for your chosen date.</p>
+                                        <p>Click <b>"Predict Price"</b> to generate a SHAP waterfall for your chosen date.</p>
                                         <div className="info-box" style={{ textAlign: 'left', maxWidth: 420, margin: '16px auto 0' }}>
-                                            💡 <b>Tip:</b> For today or any future date, select a date above and click Predict. The model will use Dec 2024 price data as the seed for lag features.
+                                            💡 <b>Tip:</b> Select any date — past or future — set your parameters, then click <b>Predict Price</b>.
                                         </div>
                                     </div>
                                 )}
