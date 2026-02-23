@@ -10,7 +10,11 @@ Veg/
 │   ├── generate_dataset.py     # Generate realistic historical dataset
 │   ├── preprocess.py           # Feature engineering & encoding
 │   ├── raw/                    # Raw CSV 
+<<<<<<< HEAD
 │   └── processed/              # Processed CSV 
+=======
+│   └── processed/              # Processed CSV
+>>>>>>> e205b382b7e48bfc0af1c716c460b46e1071bbaf
 ├── models/
 │   ├── train.py                # LightGBM training + evaluation
 │   ├── explain.py              # SHAP + PDP generation
