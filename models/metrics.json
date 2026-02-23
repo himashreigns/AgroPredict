@@ -1,0 +1,11 @@
+{
+  "RMSE": 5.8906,
+  "MAE": 2.2752,
+  "R2": 0.998,
+  "MAPE": 0.8149,
+  "best_iteration": 997,
+  "n_features": 27,
+  "train_size": 21900,
+  "val_size": 4700,
+  "test_size": 4700
+}
