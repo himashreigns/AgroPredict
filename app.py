@@ -1,6 +1,6 @@
 """
 app.py  –  Sri Lanka Vegetable & Fruit Price Predictor
-Two-page Streamlit application:
+
   Page 1: Dashboard  — historical trends, market heatmaps, commodity comparison
   Page 2: Predict & Explain — LightGBM prediction + SHAP waterfall
 """
