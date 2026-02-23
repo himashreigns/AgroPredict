@@ -8,7 +8,7 @@ Grounded in:
   - Known Maha/Yala agricultural seasons
   - Sri Lanka 2021–2022 economic crisis inflation spike
   - Market-type differentials (wholesale vs retail)
-  - Festive demand bumps (April Sinhala/Tamil New Year, December)
+  - Festive demand bumps (April Sinhala/Tamil New Year, December Christmas)
 """
 
 import numpy as np
